@@ -1,0 +1,52 @@
+body {
+    background: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-nav { 
+            margin-left: auto; 
+}
+.nav-item {
+    margin-right:4px;
+}
+.bg-color-heading{
+    background: white;
+}
+.navbar-toggler {
+    border: none;
+}
+.dropdown-menu {
+    border:none;
+    font-size: 0.9em;
+}
+.dropdown-divider {
+    margin: 0 45% 0 45%;
+    background-color:#d3d3d3;
+}
+/*
+.firstSection {
+}
+*/
+
+.planet-image {
+    height: 80vh;
+    width:100%;
+    position:relative;
+    background-image: url("assets/images/planet-earth.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secondSection {
+    background-color: crimson;
+    height:50vh;
+}
+.my-footer {
+    background-color: darkblue;
+    height: 50vh;
+}
+
+@media screen and (min-width:992px){
+    .dropdown-divider{display:none}
+}
