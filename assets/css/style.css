@@ -80,15 +80,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-.exampleLink {
+.linkEdit {
     width:175px;
     height: 50px;
     text-decoration: none;
     color: #fafafa;
 }
+
 
 /**************************************** -- Footer -- ***/
 #footer-details {
@@ -96,6 +97,7 @@
     color:white;
     text-align: center;
     padding: 10px;
+    margin-top: 30px;
 }
 
 .socialFooter a{
@@ -109,6 +111,67 @@
 .footerItem {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+/**************************************** -- Grow.html -- ***/
+
+.growSection {
+    margin-top: 40px;
+}
+
+.seedDiv {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.seedList {
+    font-size: 1.6em;
+    text-align: center;
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+}
+.seedList li {
+    margin: auto 10%;
+    margin-top: 40px;
+}
+
+.detailsEdit {
+    background-color: rgba(88, 88, 88, 0.3);
+    border-radius: 2px;
+    padding: 10px;
+}
+details p {
+    width: 70%;
+    font-size: 0.6em;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+.listTypo ul {
+    list-style: none;
+}
+.listTypo li{
+    font-size: 0.6em;
+}
+details a:hover {
+    color: white;
+}
+/*
+summary::-webkit-details-marker {
+  display: none;
+}
+*/
+.summaryEdit {
+    outline: none;
+}
+
+
+.buyDiv {
+    display:block;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 /**************************************** -- Contact.html -- ***/
@@ -147,6 +210,12 @@
     text-decoration: none;
     color:white;
     font-size: 20px;
+}
+.referenceLinks a:hover {
+    background-color:white;
+    color:black;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .contactDivFooter {
