@@ -1,4 +1,4 @@
-((-------- BONSAI STARTING GUIDE WEBSITE --------))
+* ((-------- BONSAI STARTING GUIDE WEBSITE --------))
 
 ********** SHARED ACROSS ALL SITES **********
 
