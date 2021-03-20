@@ -1,25 +1,25 @@
-# ((-------- BONSAI STARTING GUIDE WEBSITE --------))
+# -------- BONSAI STARTING GUIDE WEBSITE --------
 
-********** SHARED ACROSS ALL SITES **********
+## ********** SHARED ACROSS ALL SITES **********
 
-    ** NAVBAR **
+####    ** NAVBAR **
 
         - Created using bootstrap
         - Just one responsive change with navbar items being a collapse list when viewing on a screen < 992px
 
-    ** FOOTER **
+####    ** FOOTER **
 
         - Two responsive columns made using bootstrap
         - When > 992px they become inline-blocks
 
 
 
-********** INDEX.html **********
+## ********** INDEX.html **********
 
     - Index has two sections, displayed one below the other
     - All sections made using bootstraps row/cols
 
-    ** FIRST SECTION **
+####    ** FIRST SECTION **
 
         - Background classed bonsaiBackground
         - First impression background with some text displayed in upper and lower text blocks  
@@ -27,7 +27,7 @@
         
 
 
-    ** SECOND SECTION **
+  ####  ** SECOND SECTION **
 
         - Some interesting info about theme of the site
         - Breakpoints at 992px, when < displayed as blocks, when > displayed as inline blocks
@@ -36,7 +36,7 @@
 
 
 
-********** GROW.html **********
+## ********** GROW.html **********
 
         - Information about growing your own bonsai.
         - Made up of summaries and details for easier overview.
@@ -45,7 +45,7 @@
             - Source link reference added on the bottom of the grow.html
 
 
-********** CONTACT.html **********
+## ********** CONTACT.html **********
 
         - contactDiv with contact infrmation placed inside contactBackground div
         - contactDiv breakpoints made using css's media queries, editing only div's width on each breakpoint
