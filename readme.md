@@ -1,6 +1,13 @@
 # -------- BONSAI STARTING GUIDE WEBSITE --------
 
-## ********** SHARED ACROSS ALL SITES **********
+##### Project goals
+The goal of the project is to provide users some Bonsai-World-Introduction, including instructions of how to grow one from seed.
+
+
+
+
+
+### ********** SHARED ACROSS ALL SITES **********
 
 ####    ** NAVBAR **
 
@@ -14,7 +21,7 @@
 
 
 
-## ********** INDEX.html **********
+### ********** INDEX.html **********
 
     - Index has two sections, displayed one below the other
     - All sections made using bootstraps row/cols
@@ -36,7 +43,7 @@
 
 
 
-## ********** GROW.html **********
+### ********** GROW.html **********
 
         - Information about growing your own bonsai.
         - Made up of summaries and details for easier overview.
@@ -45,7 +52,7 @@
             - Source link reference added on the bottom of the grow.html
 
 
-## ********** CONTACT.html **********
+### ********** CONTACT.html **********
 
         - contactDiv with contact infrmation placed inside contactBackground div
         - contactDiv breakpoints made using css's media queries, editing only div's width on each breakpoint
