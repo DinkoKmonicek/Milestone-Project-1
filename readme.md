@@ -1,40 +1,41 @@
 # -------- BONSAI STARTING GUIDE WEBSITE --------
 
-##### Project goals
-The goal of the project is to provide users some Bonsai-World-Introduction, including instructions of how to grow one from seed.
+#### Project goals
+
+The goal of the project is to provide users some introduction to Bonsai art, including instructions of how to grow one from seed.
+
+## UX
 
 
 
 
+#### ********** SHARED ACROSS ALL SITES **********
 
-### ********** SHARED ACROSS ALL SITES **********
-
-####    ** NAVBAR **
+#####    ** NAVBAR **
 
         - Created using bootstrap
         - Just one responsive change with navbar items being a collapse list when viewing on a screen < 992px
 
-####    ** FOOTER **
+#####    ** FOOTER **
 
         - Two responsive columns made using bootstrap
         - When > 992px they become inline-blocks
 
 
 
-### ********** INDEX.html **********
+#### ********** INDEX.html **********
 
     - Index has two sections, displayed one below the other
     - All sections made using bootstraps row/cols
 
-####    ** FIRST SECTION **
+#####    ** FIRST SECTION **
 
         - Background classed bonsaiBackground
         - First impression background with some text displayed in upper and lower text blocks  
             text blocks classes - bonsaiContent and bonsaiContentSecond
         
 
-
-  ####  ** SECOND SECTION **
+ #####  ** SECOND SECTION **
 
         - Some interesting info about theme of the site
         - Breakpoints at 992px, when < displayed as blocks, when > displayed as inline blocks
@@ -43,7 +44,7 @@ The goal of the project is to provide users some Bonsai-World-Introduction, incl
 
 
 
-### ********** GROW.html **********
+#### ********** GROW.html **********
 
         - Information about growing your own bonsai.
         - Made up of summaries and details for easier overview.
@@ -52,7 +53,7 @@ The goal of the project is to provide users some Bonsai-World-Introduction, incl
             - Source link reference added on the bottom of the grow.html
 
 
-### ********** CONTACT.html **********
+#### ********** CONTACT.html **********
 
         - contactDiv with contact infrmation placed inside contactBackground div
         - contactDiv breakpoints made using css's media queries, editing only div's width on each breakpoint
