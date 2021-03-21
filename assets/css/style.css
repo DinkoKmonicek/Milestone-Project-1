@@ -23,7 +23,7 @@
 
 
 /**************************************** -- First Section -- ***/
-.bonsaiBackground {
+.bonsai-background {
     display:block;
     background: url("../images/bonsai.jpg");
     background-position: center;
@@ -38,20 +38,20 @@
 
 /**************************************** -- Second Section -- ***/
 
-.bonsaiContent {
+.bonsai-content {
     display:block;
     text-align: center;
     color:white;
-    width: 80%;
-    margin: 40px;
     background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.bonsai-content > h1 {
+    font-size: 5rem;
 }
 
-.bonsaiSection {
+.bonsai-section {
     display: block;
-    justify-content: center;
-    align-items: center;
-    width: 70vw;
+    width: 90vw;
     padding-bottom: 20px;
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.4);
@@ -59,10 +59,10 @@
     border: 1px solid white;
 
 }
-.definitionSection {
+.definition-section {
     display: block;
     justify-content: center;
-    width: 70vw;
+    width: 90vw;
     padding-bottom: 20px;
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.4);
@@ -70,20 +70,21 @@
     border: 1px solid white;
 }
 
-.bonsaiContentSecond {
+.bonsai-content-second {
     margin-top: 350px;
 }
 
-.bonsai2Background {
+.bonsai-2-background {
     background: url("../images/bonsai2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: 30px;
+
+    margin-top: 3px;
 }
 
-.linkEdit {
+.link-edit {
     width:175px;
     height: 50px;
     text-decoration: none;
@@ -97,10 +98,9 @@
     color:white;
     text-align: center;
     padding: 10px;
-    margin-top: 30px;
 }
 
-.socialFooter a{
+.social-footer a{
     text-decoration: none;
     color:white;
 }
@@ -108,66 +108,67 @@
     margin: 20px;
 }
 
-.footerItem {
+.footer-item {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 /**************************************** -- Grow.html -- ***/
 
-.growSection {
+
+.grow-section {
     margin-top: 40px;
 }
 
-.seedDiv {
+.seed-div {
     background-color: black;
     color: white;
     text-align: center;
     padding-bottom: 100px;
 }
-.seedList {
+.seed-div > h1 {
+     margin: 40px auto;
+}
+
+.seed-list {
     font-size: 1.6em;
     text-align: center;
     list-style: none;
     margin-top: 50px;
     padding: 0;
 }
-.seedList li {
-    margin: auto 10%;
+.seed-list li {
     margin-top: 40px;
 }
 
-.detailsEdit {
+.details-edit {
     background-color: rgba(88, 88, 88, 0.3);
     border-radius: 2px;
     padding: 10px;
+    text-align: centers;
 }
 details p {
-    width: 70%;
     font-size: 0.6em;
-    margin-left: 20%;
     margin-top: 15px;
 }
-.listTypo ul {
+.list-typo ul {
     list-style: none;
 }
-.listTypo li{
+.list-typo li{
     font-size: 0.6em;
 }
 details a:hover {
     color: white;
 }
-/*
-summary::-webkit-details-marker {
-  display: none;
+.text-align-left {
+    text-align: left;
 }
-*/
-.summaryEdit {
+.summary-edit {
     outline: none;
 }
 
 
-.buyDiv {
+.buy-div {
     display:block;
     background-color: black;
     color: white;
@@ -176,7 +177,7 @@ summary::-webkit-details-marker {
 
 /**************************************** -- Contact.html -- ***/
 
-.contactBackground {
+.contact-background {
     background: url("../images/contactBG.jpeg");
     background-position: center;
     background-size: cover;
@@ -187,7 +188,7 @@ summary::-webkit-details-marker {
     height: 900px;
 }
 
-.contactDiv{
+.contact-div{
     position: relative;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.3);
@@ -199,26 +200,26 @@ summary::-webkit-details-marker {
     padding:20px;
 }
 
-.contactDiv ul {
+.contact-div ul {
     list-style-type: none;
 }
-.contactDiv ul li {
+.contact-div ul li {
     margin-top: 10px;
 }
 
-.referenceLinks a {
+.reference-links a {
     text-decoration: none;
     color:white;
     font-size: 20px;
 }
-.referenceLinks a:hover {
+.reference-links a:hover {
     background-color:white;
     color:black;
     padding: 5px;
     border-radius: 5px;
 }
 
-.contactDivFooter {
+.contact-div-footer {
     margin-top: 30px;
 }
 
@@ -253,16 +254,8 @@ summary::-webkit-details-marker {
     -webkit-text-stroke: 0.5px black;
 }
 
-.planetButtons {
-    color:#fafafa;
-    text-align: center;
-    width: 30%;
-    margin: 25px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    padding: 5px 5px 10px 5px;
-}
-.myButtons a {
+
+.my-buttons a {
     text-decoration: none;
     color: #fafafa;
 }
@@ -271,30 +264,32 @@ summary::-webkit-details-marker {
 
 /**************************************** -- Media Queries -- ***/
 @media (min-width: 576px){
-    .bonsaiContent {
-        width: 70%;
+    .bonsai-content {
+        width: 90%;
     }
-    .bonsaiContentSecond {
+    .bonsai-content-second {
         margin-top:500px;
+    }
+    .seed-list li {
+        margin: auto 10%;
+        margin-top: 40px;
     }
 }
 @media (min-width: 768px){
-    .bonsaiContent {
-         width: 50%;
+    .bonsai-content {
+         width: 80%;
     }
     
-    .contactDiv {
+    .contact-div {
         width: 80vw;
     }
-    
-    
 }
 @media (min-width: 992px){
-     .bonsaiSection {
+     .bonsai-section {
          display:inline-block;
          width: 40%;
      }
-     .definitionSection {
+     .definition-section {
          display:inline-block;
          width:40%;
      }
@@ -303,14 +298,18 @@ summary::-webkit-details-marker {
          display:none;
      }
 
-     .contactDiv {
+     .contact-div {
         width: 60vw;
     }
  }
 
- 
+@media (max-width: 350px) {
+    .text-content {
+        font-size: 18px;
+    }
+}
 @media (max-width: 768px){
-    .contactBackground {
+    .contact-background {
         background-position: -650px;
     }
 }
